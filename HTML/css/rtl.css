@@ -1,3 +1,9 @@
-body{
+html{
   direction: rtl;
+}
+.social-icons{
+  float: left !important;
+}
+.search{
+  float: left !important;
 }
