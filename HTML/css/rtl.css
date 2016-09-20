@@ -66,6 +66,21 @@ span.cloud{
 .home-concept .row.center > div{
   float: right;
 }
-.fcSlideshow{
-  margin-right: 5px !important;
+.testimonial-arrow-down{
+margin: 0 25px 0 0;
 }
+.testimonial-author > p{
+  margin: 0 25px 0 0;
+    text-align: right;
+    float: right;
+}
+.img-thumbnail.img-thumbnail-small{
+  float: right;
+}
+
+#footer .footer-ribbon:before {
+    border-right: 10px solid transparent;
+    border-bottom: 16px solid #646464;
+    right: -10px;
+    top: -14px;
+  }
