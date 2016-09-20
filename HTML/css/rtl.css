@@ -1,3 +1,4 @@
+
 html{
   direction: rtl;
 }
@@ -15,18 +16,16 @@ html{
 #header nav{
   float: left !important;
 }
+
 .nav-pills > li{
   float: right;
-}
-#header .social-icons{
-  margin-left: 0px;
-  margin-right: 5px;
 }
 ul.dropdown-menu {
     border-radius: 6px 0 6px 6px !important;
     margin-left: 0 !important;
     margin-right: 3px !important;
     text-align: right !important;
+    right: auto !important;
 }
 #header nav ul.nav-main .dropdown-submenu > a:after{
   float: left !important;
@@ -41,9 +40,32 @@ ul.dropdown-menu {
   left: auto;
   right: 100%;
 }
+
+#header .social-icons{
+  margin-left: 0px;
+  margin-right: 5px;
+}
+
 .fa-angle-right:before{
   content: "\f104"
 }
 #header nav ul.nav-top li i{
       display: inline;
+}
+
+span.sun{
+  left: auto;
+  right: 10%;
+}
+span.cloud{
+  left: auto;
+  right: 57%;
+  background-color:lightblue;
+  transform:rotateY(180deg);
+}
+.home-concept .row.center > div{
+  float: right;
+}
+.fcSlideshow{
+  margin-right: 5px !important;
 }
