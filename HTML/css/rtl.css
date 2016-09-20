@@ -6,4 +6,44 @@ html{
 }
 .search{
   float: left !important;
+  margin-left: 0px !important;
+  margin-right: 15px !important;
+}
+.search .btn{
+  left: 0px !important;
+}
+#header nav{
+  float: left !important;
+}
+.nav-pills > li{
+  float: right;
+}
+#header .social-icons{
+  margin-left: 0px;
+  margin-right: 5px;
+}
+ul.dropdown-menu {
+    border-radius: 6px 0 6px 6px !important;
+    margin-left: 0 !important;
+    margin-right: 3px !important;
+    text-align: right !important;
+}
+#header nav ul.nav-main .dropdown-submenu > a:after{
+  float: left !important;
+  border-color: transparent;
+  border-top-color: transparent;
+  border-right-color: #ffffff;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  border-width: 5px 5px 5px 0;
+}
+#header nav ul.nav-main .dropdown-submenu > .dropdown-menu{
+  left: auto;
+  right: 100%;
+}
+.fa-angle-right:before{
+  content: "\f104"
+}
+#header nav ul.nav-top li i{
+      display: inline;
 }
