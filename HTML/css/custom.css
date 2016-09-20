@@ -1,3 +1,10 @@
 @import "rtl.css";
 
 /* Add here all your CSS customizations */
+@font-face {
+    font-family: myFirstFont;
+    src: url(fonts/yekan/Yekan.woff);
+}
+* {
+    font-family: myFirstFont;
+}
