@@ -84,3 +84,20 @@ margin: 0 25px 0 0;
     right: -10px;
     top: -14px;
   }
+
+@media  (max-width: 991px) {
+  .btn-responsive-nav{
+    left: 30px;
+  }
+  .fa-angle-down{
+    left: 0px;
+    width: 5px !important;
+    float: left !important;
+    right: 0px !important;
+    display: inline-block;
+    position: static !important;
+  }
+  #header .nav-main li.dropdown a.dropdown-toggle.extra{
+    float: left !important;
+  }
+}
