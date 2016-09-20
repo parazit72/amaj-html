@@ -38,12 +38,15 @@ ul.dropdown-menu {
 }
 #header nav ul.nav-main .dropdown-submenu > .dropdown-menu{
   left: auto;
-  right: 100%;
+  right: 100% !important;
 }
 
 #header .social-icons{
   margin-left: 0px;
   margin-right: 5px;
+}
+.phone{
+  width: 125px !important;
 }
 
 .fa-angle-right:before{
